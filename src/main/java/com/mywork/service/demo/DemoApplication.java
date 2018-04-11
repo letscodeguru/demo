@@ -45,7 +45,7 @@ public class DemoApplication  extends SpringBootServletInitializer {
 	          .apis(RequestHandlerSelectors.any())
 	          .paths(PathSelectors.any())
 	          .build()
-	        .pathMapping("/")
+	        .pathMapping("/api/")
 	        .directModelSubstitute(LocalDate.class,
 	            String.class)
 	        .genericModelSubstitutes(ResponseEntity.class)
