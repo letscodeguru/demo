@@ -9,7 +9,7 @@ public class NewsFetchServiceImpl implements NewsFetchService {
 
 	@Override
 	public String latestNews() {
-		return "This is latest news. with new news";
+		return "This is latest news. with new news. and jenkins";
 	}
 
 }
